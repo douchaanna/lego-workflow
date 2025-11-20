@@ -373,14 +373,3 @@ if __name__ == "__main__":
     print("  uvicorn main:app --reload")
     print("\nThen open: http://localhost:8000")
     print("="*50 + "\n")
-```
-
-### 2. `requirements.txt`
-```
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
-python-multipart==0.0.6
-Pillow==10.1.0
-opencv-python==4.8.1.78
-numpy==1.24.3
-pydantic==2.5.0
